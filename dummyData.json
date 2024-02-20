@@ -1,0 +1,94 @@
+{
+    "job_listings": [
+      {
+        "company_name": "ABC Corporation",
+        "job_title": "Software Engineer",
+        "platform": "Web",
+        "salary": "$80k - $100k",
+        "posted_date": "2024-02-15",
+        "apply_before": "2024-03-15",
+        "job_nature": "Full-time",
+        "job_description": "ABC Corporation is seeking a talented Software Engineer to join our dynamic team. The ideal candidate should have experience in web development technologies such as HTML, CSS, and JavaScript. Responsibilities include designing, coding, testing, and debugging software applications. Strong problem-solving skills and a passion for innovation are essential."
+      },
+      {
+        "company_name": "XYZ Tech",
+        "job_title": "Data Scientist",
+        "platform": "Python",
+        "salary": "$90k - $120k",
+        "posted_date": "2024-02-15",
+        "apply_before": "2024-03-15",
+        "job_nature": "Full-time",
+        "job_description": "XYZ Tech is looking for a skilled Data Scientist proficient in Python. The role involves analyzing large datasets, developing machine learning models, and providing actionable insights. Candidates should have a strong background in statistics, data visualization, and machine learning algorithms."
+      },
+      {
+        "company_name": "123 Industries",
+        "job_title": "UX/UI Designer",
+        "platform": "Mobile",
+        "salary": "$70k - $90k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "123 Industries is seeking a creative UX/UI Designer to join our mobile development team. The ideal candidate should have experience in user research, wireframing, prototyping, and user interface design. Strong proficiency in design tools such as Adobe XD or Sketch is required."
+      },
+      {
+        "company_name": "Tech Innovations Ltd.",
+        "job_title": "Frontend Developer",
+        "platform": "JavaScript",
+        "salary": "$85k - $110k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "Tech Innovations Ltd. is hiring a Frontend Developer with expertise in JavaScript. The role involves collaborating with design and backend teams to implement user-facing features, optimize web applications for maximum speed, and ensure cross-browser compatibility."
+      },
+      {
+        "company_name": "Global Solutions Inc.",
+        "job_title": "Cybersecurity Analyst",
+        "platform": "Security",
+        "salary": "$95k - $130k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "Global Solutions Inc. is seeking a Cybersecurity Analyst to join our security team. Responsibilities include monitoring security access, conducting vulnerability assessments, and implementing security measures. Candidates should have strong analytical skills and knowledge of security tools and protocols."
+      },
+      {
+        "company_name": "Digital Marketing Experts",
+        "job_title": "Social Media Manager",
+        "platform": "Marketing",
+        "salary": "$60k - $80k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "Digital Marketing Experts is looking for a Social Media Manager to develop and implement social media strategies. The role involves managing social media accounts, creating engaging content, and analyzing performance metrics to optimize campaigns."
+      },
+      {
+        "company_name": "E-commerce Enterprises",
+        "job_title": "Backend Developer",
+        "platform": "Java",
+        "salary": "$90k - $115k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "E-commerce Enterprises is hiring a Backend Developer proficient in Java. Responsibilities include designing, implementing, and maintaining scalable backend solutions, integrating third-party services, and optimizing database performance."
+      },
+      {
+        "company_name": "HealthTech Innovations",
+        "job_title": "Machine Learning Engineer",
+        "platform": "AI",
+        "salary": "$100k - $130k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "HealthTech Innovations is seeking a Machine Learning Engineer to develop and deploy machine learning models for healthcare applications. The ideal candidate should have strong programming skills in Python, experience with machine learning frameworks such as TensorFlow or PyTorch, and a background in healthcare data analysis."
+      },
+      {
+        "company_name": "Green Energy Solutions",
+        "job_title": "Environmental Scientist",
+        "platform": "Research",
+        "salary": "$70k - $90k",
+        "posted_date": "2024-02-16",
+        "apply_before": "2024-03-16",
+        "job_nature": "Full-time",
+        "job_description": "Green Energy Solutions is hiring an Environmental Scientist to conduct research on environmental issues and develop sustainable solutions. Responsibilities include collecting and analyzing data, writing reports, and collaborating with stakeholders to address environmental challenges."
+      }
+    ]
+  }
