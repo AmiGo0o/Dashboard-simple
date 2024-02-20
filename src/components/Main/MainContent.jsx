@@ -72,14 +72,15 @@ const MainContent = () => {
                 <th>Community</th>
                 <th>State</th>
               </tr>
-              {fetchedData && fetchedData.map((item, index) => (
-                <tr key={index}>
-                  <td>{item.name}</td>
-                  <td>{item.city}</td>
-                  <td>{item.community}</td>
-                  <td>{item.state}</td>
-                </tr>
-              ))}
+              {fetchedData &&
+                fetchedData.map((item, index) => (
+                  <tr key={index}>
+                    <td>{item.name}</td>
+                    <td>{item.city}</td>
+                    <td>{item.community}</td>
+                    <td>{item.state}</td>
+                  </tr>
+                ))}
             </tbody>
           </table>
         </div>
