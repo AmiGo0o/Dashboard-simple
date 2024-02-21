@@ -1,15 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BiDownload, BiUser } from "react-icons/bi";
 import "./Main.css";
 
 const MainContent = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [fetchedData, setFetchedData] = useState([]);
+  const [isFetchedData, setFetchedData] = useState([]);
 
   //*fetch data from the API
-  const fetchData = async (type) => {
+  const fetchData = async () => {
     try {
-      const response = await fetch(`https://random-data-api.com/`);
+      const response = await fetch(
+        `https://jsonplaceholder.typicode.com/users`
+      );
       const data = await response.json();
       console.log(data);
       setFetchedData(data);
@@ -17,10 +19,9 @@ const MainContent = () => {
       console.error("Error fetching data:", error);
     }
   };
-
   // //*Event handler for card click
-  const handleCardClick = (type) => {
-    fetchData(type);
+  const handleCardClick = () => {
+    fetchData();
   };
 
   return (
@@ -39,7 +40,7 @@ const MainContent = () => {
           >
             <BiDownload className="icon2" />
             <span className="card-title">Total Downloads</span>
-            <span className="card-num">53,089</span>
+            <span className="card-num">{isFetchedData.length}</span>
           </div>
           <div
             className={`card ${isHovered ? "hovered" : ""}`}
@@ -69,16 +70,16 @@ const MainContent = () => {
               <tr>
                 <th>Name</th>
                 <th>City</th>
-                <th>Community</th>
-                <th>State</th>
+                <th>Email</th>
+                <th>Street</th>
               </tr>
-              {fetchedData &&
-                fetchedData.map((item, index) => (
+              {isFetchedData &&
+                isFetchedData.map((item, index) => (
                   <tr key={index}>
                     <td>{item.name}</td>
-                    <td>{item.city}</td>
-                    <td>{item.community}</td>
-                    <td>{item.state}</td>
+                    <td>{item.address.city}</td>
+                    <td>{item.email}</td>
+                    <td>{item.address.street}</td>
                   </tr>
                 ))}
             </tbody>
